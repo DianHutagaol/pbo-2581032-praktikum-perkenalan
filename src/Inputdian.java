@@ -16,8 +16,13 @@ public class Inputdian {
         System.out.print("Masukan tinggi      : ");
         double tinggi = scanner.nextDouble();
 
-        System.out.println("Halo! Nama saya " + nama + " (NIM " + nim + "), umur " + umur + " tahun, tinggi " + tinggi + " cm ");
+        scanner.nextLine();
 
+        System.out.print("Masukkan asal kota  : ");
+        String asalKota = scanner.nextLine();
+
+        System.out.println("Halo! Nama saya " + nama + " (NIM " + nim + "), umur " + umur + " tahun,");
+        System.out.println("tinggi " + tinggi + " cm, berasal dari " + asalKota + ".");
 
         scanner.close();
     }
