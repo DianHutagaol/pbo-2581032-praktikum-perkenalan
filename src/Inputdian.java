@@ -13,7 +13,10 @@ public class Inputdian {
         System.out.print("Masukkan umur       : ");
         int umur = scanner.nextInt();
 
-        System.out.println("Halo! Nama saya " + nama + " (NIM " + nim + "), umur " + umur + " tahun,");
+        System.out.print("Masukan tinggi      : ");
+        double tinggi = scanner.nextDouble();
+
+        System.out.println("Halo! Nama saya " + nama + " (NIM " + nim + "), umur " + umur + " tahun, tinggi " + tinggi + " cm ");
 
 
         scanner.close();
